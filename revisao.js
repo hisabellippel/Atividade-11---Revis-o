@@ -32,7 +32,8 @@ var stop = function(){
 timer();
 stop();*/
 
-//questão 3
+/*questão 3
+
 let j = parseFloat(prompt('digite os gastos mensais de janeiro:'));
 let f = parseFloat(prompt('digite os gastos mensais de fevereiro:'));
 let m = parseFloat(prompt('digite os gastos mensais de março:'));
@@ -83,4 +84,17 @@ let saldo = 0
     console.log ( 'Você não ganhou nada')
    } else{
     console.log ( 'Você teve prejuízo')
-   } 
+   } */
+
+//questão 4
+let n1 = parseFloat(prompt('Digite um número:'));
+let n2 = parseFloat(prompt('Digite um número:'));
+let n3 = parseFloat(prompt('Digite um número:'));
+let n4 = parseFloat(prompt('Digite um número:'));
+let numeros = 
+
+const numero = ["n1", "n2", "n3", "n4"];
+document.getElementById("demo1").innerHTML = numero;
+
+numero.sort();
+document.getElementById("demo2").innerHTML = numero;
